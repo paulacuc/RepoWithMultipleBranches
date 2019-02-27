@@ -1,0 +1,31 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<url value="http://uk-koeln.de/fhir/ValueSet/cancer-base/tnm-s"/>
+	<version value="0.1"/>
+	<name value="tnm-s"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2018-10-31"/>
+	<publisher value="Universität Köln"/>
+	<description value="TNM: S-Klassifikation"/>
+	<compose>
+		<include>
+			<!-- FIXME: canonical URL -->
+			<system value="urn:oid:2.16.840.1.113883.15.16"/>
+			<version value="8"/>
+			<concept><code value="SX"/><display value="SX"/></concept>
+			<concept><code value="S0"/><display value="S0"/></concept>
+			<concept><code value="S1"/><display value="S1"/></concept>
+			<concept><code value="S2"/><display value="S2"/></concept>
+			<concept><code value="S3"/><display value="S3"/></concept>
+		</compose>
+		<expansion>
+			<identifier value="uk-koeln-work-tnm-s-1"/>
+			<timestamp value="2018-10-31"/>
+			<total value="5"/>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="SX"/><display value="SX"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="S0"/><display value="S0"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="S1"/><display value="S1"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="S2"/><display value="S2"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="S3"/><display value="S3"/></contains>
+		</expansion>
+	</ValueSet>

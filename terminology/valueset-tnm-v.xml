@@ -1,0 +1,29 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<url value="http://uk-koeln.de/fhir/ValueSet/cancer-base/tnm-v"/>
+	<version value="0.1"/>
+	<name value="tnm-v"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2018-10-31"/>
+	<publisher value="Universität Köln"/>
+	<description value="TNM: V-Klassifikation"/>
+	<compose>
+		<include>
+			<!-- FIXME: canonical URL -->
+			<system value="urn:oid:2.16.840.1.113883.15.16"/>
+			<version value="8"/>
+			<concept><code value="V0"/><display value="V0"/></concept>
+			<concept><code value="V1"/><display value="V1"/></concept>
+			<concept><code value="V2"/><display value="V2"/></concept>
+			<concept><code value="VX"/><display value="VX"/></concept>
+		</compose>
+		<expansion>
+			<identifier value="uk-koeln-work-tnm-v-1"/>
+			<timestamp value="2018-10-31"/>
+			<total value="4"/>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="V0"/><display value="V0"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="V1"/><display value="V1"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="V2"/><display value="V2"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="VX"/><display value="VX"/></contains>
+		</expansion>
+	</ValueSet>

@@ -1,0 +1,27 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<url value="http://uk-koeln.de/fhir/ValueSet/cancer-base/tnm-l"/>
+	<version value="0.1"/>
+	<name value="tnm-l"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2018-10-31"/>
+	<publisher value="Universität Köln"/>
+	<description value="TNM: L-Klassifikation"/>
+	<compose>
+		<include>
+			<!-- FIXME: canonical URL -->
+			<system value="urn:oid:2.16.840.1.113883.15.16"/>
+			<version value="8"/>
+			<concept><code value="L0"/><display value="L0"/></concept>
+			<concept><code value="L1"/><display value="L1"/></concept>
+			<concept><code value="LX"/><display value="LX"/></concept>
+		</compose>
+		<expansion>
+			<identifier value="uk-koeln-work-tnm-l-1"/>
+			<timestamp value="2018-10-31"/>
+			<total value="3"/>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="L0"/><display value="L0"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="L1"/><display value="L1"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="LX"/><display value="LX"/></contains>
+		</expansion>
+	</ValueSet>

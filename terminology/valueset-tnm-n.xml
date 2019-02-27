@@ -1,0 +1,49 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<url value="http://uk-koeln.de/fhir/ValueSet/cancer-base/tnm-n"/>
+	<version value="0.1"/>
+	<name value="tnm-n"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2018-10-31"/>
+	<publisher value="Universität Köln"/>
+	<description value="TNM: N-Klassifikation"/>
+	<compose>
+		<include>
+			<!-- FIXME: canonical URL -->
+			<system value="urn:oid:2.16.840.1.113883.15.16"/>
+			<version value="8"/>
+			<concept><code value="NX"/><display value="NX"/></concept>
+			<concept><code value="N0"/><display value="N0"/></concept>
+			<concept><code value="N1"/><display value="N1"/></concept>
+			<concept><code value="N1a"/><display value="N1a"/></concept>
+			<concept><code value="N1b"/><display value="N1b"/></concept>
+			<concept><code value="N1c"/><display value="N1c"/></concept>
+			<concept><code value="N2"/><display value="N2"/></concept>
+			<concept><code value="N2a"/><display value="N2a"/></concept>
+			<concept><code value="N2b"/><display value="N2b"/></concept>
+			<concept><code value="N2c"/><display value="N2c"/></concept>
+			<concept><code value="N3"/><display value="N3"/></concept>
+			<concept><code value="N3a"/><display value="N3a"/></concept>
+			<concept><code value="N3b"/><display value="N3b"/></concept>
+			<concept><code value="N3c"/><display value="N3c"/></concept>
+		</compose>
+		<expansion>
+			<identifier value="uk-koeln-work-tnm-n-1"/>
+			<timestamp value="2018-10-31"/>
+			<total value="14"/>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="NX"/><display value="NX"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N0"/><display value="N0"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N1"/><display value="N1"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N1a"/><display value="N1a"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N1b"/><display value="N1b"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N1c"/><display value="N1c"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N2"/><display value="N2"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N2a"/><display value="N2a"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N2b"/><display value="N2b"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N2c"/><display value="N2c"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N3"/><display value="N3"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N3a"/><display value="N3a"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N3b"/><display value="N3b"/></contains>
+			<contains><system value="urn:oid:2.16.840.1.113883.15.16"/><version value="8"/><code value="N3c"/><display value="N3c"/></contains>
+		</expansion>
+	</ValueSet>
